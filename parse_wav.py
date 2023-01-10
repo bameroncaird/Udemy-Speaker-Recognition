@@ -1,12 +1,14 @@
 """
 This file contains my implementation for Assignment 3, "Parse a WAV file."
-I am just using the struct module and basic Python.
-Actually, I did not even use struct.
 See for checking if correct: https://gist.github.com/eerwitt/ba51e181d50de6555a2ae613a558c0b6
+- This implementation is copied below my function.
 """
 import struct
 
 def parse_wav(filename):
+    """
+    This is my function.
+    """
 
     with open(filename, "rb") as f:
         raw_bytes = f.read()
